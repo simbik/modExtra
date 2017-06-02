@@ -2,8 +2,7 @@ modExtra.page.Home = function (config) {
     config = config || {};
     Ext.applyIf(config, {
         components: [{
-            xtype: 'modextra-panel-home',
-            renderTo: 'modextra-panel-home-div'
+            xtype: 'modextra-panel-home'
         }]
     });
     modExtra.page.Home.superclass.constructor.call(this, config);
