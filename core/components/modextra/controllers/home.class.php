@@ -73,13 +73,4 @@ class modExtraHomeManagerController extends modExtraManagerController
         </script>
         ');
     }
-
-
-    /**
-     * @return string
-     */
-    public function getTemplateFile()
-    {
-        return $this->modExtra->config['templatesPath'] . 'home.tpl';
-    }
 }
